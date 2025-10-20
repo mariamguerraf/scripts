@@ -26,8 +26,7 @@ fi
 
 # --- Configurer .zshrc ---
 echo "⚙️  Mise à jour du fichier .zshrc..."
-cat << 'EOF' > ~/.zshrc
-alias mb='make bonus'
+cat << 'EOF' >> ~/.zshrc
 
 # Homebrew
 export PATH="$HOME/goinfre/homebrew/bin:$PATH"
